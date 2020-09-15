@@ -1,0 +1,75 @@
+
+.search{
+    display: flex;
+    height: 39px;
+    padding: 40px;
+    align-items: center;
+    margin-left: -25px;
+    margin: 20px;
+    /* justify-content: space-between; */
+}
+
+.search_container{
+    background-color: #f6f6f6;
+     display: flex;
+    align-items: center;
+    padding: 30px;
+    border-radius: 20px;
+    height: 35px;
+    /* width: 100%; */
+    justify-content: space-between;
+}
+
+.search_container > input{
+    background-color: #f6f6f6;
+    border : none;
+    outline-width :0;
+    margin-left: 20px;
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+ }
+ 
+ .search_container > .MuiSvgIcon-root{
+     color: gray;
+     padding: 10px;
+     height: 100px;
+     width: 50px;
+     
+  }
+
+  .contact-info{
+    background-color: #F4F4F4;
+    /* text-align: center; */
+    padding: 20px;
+    margin: 15px;
+  }
+
+  .bottom_buttons{
+    display : flex;
+    justify-content: center;
+    margin: 20px;
+  }
+
+  .contact_table{
+    padding: 10px;
+    overflow: scroll;
+    flex: 1;
+    cursor: pointer;
+  }
+  .contact_table::-webkit-scrollbar {
+    display: none;
+  }
+
+  .contact_table{
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
+    }
+
+  .table_tr:hover{
+
+    background-color: #ededed;
+    
+ }
+
+  
